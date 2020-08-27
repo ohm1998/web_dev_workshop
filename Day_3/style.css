@@ -1,0 +1,26 @@
+.head
+{
+		color: yellow;
+	}
+	#header
+	{
+			color: blue;
+		}
+		.head,#header,h1
+		{
+			letter-spacing: 5px;
+		}
+		#list  b
+		{
+			color: red;
+		}
+		input[name="hello"]
+		{
+			margin: 20px;
+		}
+		p
+		{
+			color: green;
+			/*letter-spacing: 10px;*/
+			text-transform: uppercase;
+		}
