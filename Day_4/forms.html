@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.margin
+		{
+			margin: 20px;
+		}
+		.username,.password
+		{
+			padding: 20px;
+			width: 100%;
+		}
+		.btn
+		{
+			background-color: black;
+			color: white;
+			width: 50%;
+			height: 50px;
+			border-radius: 15px;
+			border: none;
+		}
+		input:focus
+		{
+			border: 2px solid green;
+			background-color: blue;
+		}
+		@media(max-width: 700px)
+		{
+			.username,.password
+			{
+				width: 50%;
+			}
+		}
+	</style>
+</head>
+<body>
+<form>
+	<input class="margin username" type="text" name="username" placeholder="Username"> <br>
+	<input class="margin password" type="password" name="pass" placeholder="Password"> <br>
+	<button class="margin btn">Submit</button>
+
+	<i class="fa fa-facebook-square fa-5x" aria-hidden="true"></i>
+
+</form>
+</body>
+</html>
