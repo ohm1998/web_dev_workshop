@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object</title>
+</head>
+<body>
+
+<script>
+	
+	function Person(fname, lname) {
+ // Define and initialize fields
+ this.firstName = fname;
+ this.lastName = lname;
+
+ // Define a method
+ this.sayHi = function() {
+ alert("Hi! " + this.firstName + " " +
+ this.lastName);
+ }
+}
+var p1 = new Person("Ohm", "Trivedi");
+var p2 = new Person("Jane", "Dow");
+p1.sayHi(); // Show "Hi! John Doe"
+p2.sayHi(); // Show "Hi! Jane Dow"
+
+</script>
+
+</body>
+</html>
