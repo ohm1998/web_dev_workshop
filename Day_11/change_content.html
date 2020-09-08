@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change Content</title>
+</head>
+<body>
+
+<div>
+	<p id="para">This is the paragraph inside the division</p>
+	<button onClick="paraContentChange()">Click Me!</button>
+</div>
+<h1>Header</h1> <button onClick="changeHeader()">Click Me!</button>
+
+<script type="text/javascript">
+	function paraContentChange()
+	{
+		var p = document.getElementById("para");
+		p.innerText = "Paragraph Content Changed!";
+	}
+	function changeHeader()
+	{
+		document.getElementsByTagName("h1")[0].innerText = "Footer";
+	}
+</script>
+
+</body>
+</html>
